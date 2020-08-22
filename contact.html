@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Titillium+Web&display=swap" />
+    
+    <title>Cody & Will Photography</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/White_Logo_Basic.png" width="125" height="125"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarMenu">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="contact">
+    <div class="container contactBody">
+        <div class="row topDiv">
+            <div class="col text-center">
+                <h2>Contact Us</h2>
+                <h5>Please feel free to reach out with any questions or to set up an appointment</h5>
+                <hr />
+            </div>
+        </div>
+
+        <div class="row row-content align-items-center ">
+            <div class="col-sm-6 text-center">
+                <h5>Our Address</h5>
+                <address>
+                    1234 Some Street<br />
+                    Sometown, WI 54321<br />
+                    U.S.A.
+                </address>
+            </div>
+            <div class="col text-center text-white">
+                <h6>Phone</h6>
+                <a role="button" class="btn btn-link text-white" href="tel:+1-555-867-5309"> <i class="fa fa-phone"></i> 1-555-867-5309 </a><br>
+                <h6>Email</h6>
+            	<a role="button" class="btn btn-link text-white" href="mailto:codyandwillphotography@gmail.com"> <i class="fa fa-envelope-o"></i> codyandwillphotography@gmail.com </a>
+            </div>
+        </div>
+
+        <div class="row row-content">
+            <div class="col-12 text-center pt-3">
+                <h2>Send us your Questions</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row text-white">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row text-white">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode"class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area Code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" id="telNum" placeholder="Tel.Number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col offset-md-2">
+                            Preferred Method of Contact:
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactPhone" name="contactRadios" value="phone" />
+                                <label for="contactPhone" class="form-check-label">Phone</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input type="radio" class="form-check-input" id="contactEmail" name="contactRadios" value="email" />
+                                <label for="contactEmail" class="form-check-label">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="inquiryType" class="col-md-2 col-form-label">Type of Inquiry</label>
+                        <div class="col">
+                            <select name="inquiryType" id="inquiryType" class="form-control">
+                                <option value="">Select...</option>
+                                <option value="quote">Get a Quote</option>
+                                <option value="portrait">Schedule Portraits</option>
+                                <option value="event">Book an Event</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Additional Info</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"> </textarea>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </div>
+
+    </div>
+</div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-4 text-center text-white">
+                    <!--
+                    <h5>Links</h5>
+                    <a href="#">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a> | <a href="#">Blog</a> | <a href="contact.html">Contact</a>
+                -->
+                    <img src="img/White_Logo_Basic.png" height="125" width="125" /><br />
+                    Copyright 2019 - Cody & Will Photography
+                </div>
+                <div class="col-sm-4 text-center text-white py-3">
+                    <h5>Connect</h5>
+                    <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/codyandwillphotography/"> <i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Cody-and-Will-Photography-113537873799081"> <i class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/cw_foto?fbclid=IwAR2HoHMcXVVh09Z2LTRyVvs6xqORuDPCUqf08QGwb55sqytZr1UG-VQUWP8"><i class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/channel/UCCtAzLGNz12hFP-umvZ5bqw/?guided_help_flow=5"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="col-sm-4 text-center text-white">
+                    <h5>Contact Us</h5>
+                    <a role="button" class="btn btn-link text-white" href="Tel:+1-555-867-5309"><i class="fa fa-phone fa-lg"></i> 1-555-867-5309</a><br />
+                    <a role="button" class="btn btn-link text-white" href="mailto:codyandwillphotography@gmail.com"><i class="fa fa-envelope fa-lg"></i> codyandwillphotography@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

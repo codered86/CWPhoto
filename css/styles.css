@@ -1,0 +1,129 @@
+
+h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-style: italic;  
+}
+/*
+#welcome {
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 500px;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#samples {
+    height: 500px;
+}
+
+#aboutUs {
+    background-color: rgba(0,0,0,0.25);
+    height: 500px;
+    align-content: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+}
+
+
+.bg {
+    background-image: url("../img/20190831_121621.jpg");
+    height: 100%;
+    background-size: cover;
+    width: 250px;
+    /* or whatever width you want. */
+    /*max-width: 250px;
+    /* or whatever width you want. */
+    /*display: inline-block;
+/*}*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.navbar {
+    background-color: #708090;
+    padding: 1%, 0;
+    font-size: 1.2em;
+}
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+#home {
+    background-image: url("../img/Duluth Zoo Falls LE.jpg");/* no-repeat center center fixed;*/
+    background-size: cover;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#landingText {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#landingNav {
+    display: table-cell;
+    vertical-align: bottom;
+    
+}
+
+#fixed {
+    background-image: url("../img/Sioux Falls River Walk Insta Crop.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center center;
+    height: 60%;
+    width: 100%;
+}
+
+footer {
+    background: #708090;
+}
+
+.padding img {
+    width: 100%;
+}
+
+.nav-link {
+    font-family: 'Titillium Web', sans-serif;  
+}
+
+#welcome {
+    background-color: #CCD1D1;
+}
+#moreInfo {
+    background-color: #CCD1D1;
+}
+.topDiv {
+    padding-top: 150px;
+}
+
+#contact {
+    background-image: url("../img/Split_Rock_Lighthouse.jpg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.contactBody {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.35);
+}
